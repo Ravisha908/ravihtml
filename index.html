@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,100;1,400;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+        <title>
+            Html Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section class="header">
+<nav>
+    <a href="index.html"><img src="Suitefitt.png"></a> 
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+
+    
+
+</nav>
+<div class="text-box">
+    <h1>Worlds Best University</h1>
+    <p>
+        Welcome to Suitefitt. Let's enjoy the Website development Course.Here we have used HTML, CSS and JavaScript.Thank You 
+    </p>
+    <a href="#" class="hero-btn">Visit Us To Know More</a>
+</div>
+        </section>
+
+
+
+        <!--Course-->
+        <Section class="course">
+            <h1>
+                Courses We Offer
+            </h1>
+            <p>
+                Lets See, what are the the Advanced courses we offer.
+            </p>
+       
+
+        <div class="row">
+            <div class="course-col">
+                <h3>
+                    Intermediate
+                </h3>
+                <p>
+                    This is about your Course and You can learn Everything you need to learn regarding your topics in this course
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Degree
+                </h3>
+                <p>
+                    This is about your Course and You can learn Everything you need to learn regarding your topics in this course
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>
+                    Post Graduation
+                </h3>
+                <p>
+                    This is about your Course and You can learn Everything you need to learn regarding your topics in this course
+                </p>
+            </div>
+        </div>
+    </Section>
+
+    <!-- ---Campus--- -->
+
+<section class="campus">
+    <h1>
+        Our Global Campus
+    </h1>
+    <p>Welcome to Suitefitt. Let's enjoy the Website development Course.Here we have used HTML, CSS and JavaScript.Thank You
+    </p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="campus.jpg">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="campus.jpg">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="campus.jpg">
+            <div class="layer">
+                <h3>WASHINGTON </h3>
+            </div>
+        </div>
+    </div>
+</Section>
+
+
+<!--Java Script-->
+        <script>
+            var navlinks=document.getElementById("navLinks");
+            function showmenu(){
+                navlinks.style.right="0";
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+    </html>
